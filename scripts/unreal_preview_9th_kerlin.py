@@ -57,7 +57,7 @@ for source_id, entries in sorted(points.items()):
         center = unreal.Vector((x1 + x2) / 2, (y1 + y2) / 2, PREVIEW_Z_CM)
         yaw = math.degrees(math.atan2(dy, dx))
         actor = unreal.EditorLevelLibrary.spawn_actor_from_class(
-            unreal.StaticMeshActor, center, unreal.Rotator(0.0, 0.0, yaw)
+            unreal.StaticMeshActor, center, unreal.Rotator(0.0, yaw, 0.0)
         )
         if actor is None:
             raise RuntimeError("Could not spawn actor for source %d" % source_id)
