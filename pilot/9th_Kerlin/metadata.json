@@ -1,0 +1,20 @@
+{
+  "purpose": "horizontal spatial pilot only",
+  "not_ready_for_3d_placement": true,
+  "origin_lonlat": [
+    -75.37141354422802,
+    39.84831809369421
+  ],
+  "projected_crs": "EPSG:32618",
+  "origin_utm_m": [
+    468226.1739083406,
+    4410988.22069396
+  ],
+  "local_axes": "X=east,Y=north; Unreal cm columns supplied in CSV",
+  "terrain_elevation": "unknown",
+  "vertical_datum": "unknown",
+  "selected_source": "18_StreetSystemV3/regional_motor_roads_v3.geojson",
+  "source_features": 13,
+  "vertices": 27,
+  "warning": "do not assign z=0 as verified grade; road widths are dataset estimates; inspect duplicate carriageways and intersections before making final meshes"
+}

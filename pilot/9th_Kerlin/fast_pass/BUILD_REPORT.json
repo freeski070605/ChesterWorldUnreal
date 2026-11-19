@@ -1,0 +1,29 @@
+{
+  "status": "HORIZONTAL_PREVIEW_ONLY",
+  "source_archive": "ChesterWorld_9th_Kerlin_Neighborhood_Preview.zip",
+  "original_feature_count": 112,
+  "included_features": 110,
+  "skipped_feature_ids": [
+    "regional_186_0",
+    "regional_187_0"
+  ],
+  "fused_surface_parts": 7,
+  "triangles": 382,
+  "covered_area_m2": 58229.6,
+  "unreal_units": "centimeters",
+  "origin_lon_lat": [
+    -75.37141354422802,
+    39.84831809369421
+  ],
+  "projection": "EPSG:32618",
+  "horizontal_axes": "X=east; Y=north; Z=up",
+  "vertical_alignment": "ALL ROAD TRIANGLES AT Z=+100 CM. UNSURVEYED. DO NOT USE AS FINAL GROUND OR BRIDGE ELEVATION.",
+  "caveats": [
+    "This is a polygon union of estimated-width road buffers, not engineered street centerline junction topology.",
+    "A fused polygon can bridge very close roads. Check intersections against imagery and source GIS.",
+    "Fused surface parts may remain disconnected because the input source is incomplete or gaps exist.",
+    "No sidewalks, buildings, terrain, vehicle pawn, bridge separations, or verified physics material.",
+    "Amtrak rail features excluded, do not substitute rail corridors for streets.",
+    "No vertical information: not suitable for grade-separated roads/highways."
+  ]
+}

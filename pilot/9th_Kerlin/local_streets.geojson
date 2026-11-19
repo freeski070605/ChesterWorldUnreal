@@ -1,0 +1,309 @@
+{
+  "type": "FeatureCollection",
+  "name": "local_horizontal_streets_9th_Kerlin",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "source_index": 3399,
+        "name": "9th",
+        "width_m": 14.0,
+        "distance_to_origin_m_vertices": 203.7,
+        "horizontal_only": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            323.256,
+            169.108
+          ],
+          [
+            181.016,
+            93.416
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_index": 3441,
+        "name": "9th",
+        "width_m": 13.6,
+        "distance_to_origin_m_vertices": 110.05,
+        "horizontal_only": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -100.515,
+            -44.806
+          ],
+          [
+            -200.577,
+            -90.382
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_index": 3447,
+        "name": "9th",
+        "width_m": 14.0,
+        "distance_to_origin_m_vertices": 0.0,
+        "horizontal_only": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -100.515,
+            -44.806
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_index": 3448,
+        "name": "9th",
+        "width_m": 14.0,
+        "distance_to_origin_m_vertices": 15.38,
+        "horizontal_only": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            91.167,
+            45.962
+          ],
+          [
+            13.947,
+            6.492
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_index": 3449,
+        "name": "9th",
+        "width_m": 14.0,
+        "distance_to_origin_m_vertices": 102.1,
+        "horizontal_only": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            181.016,
+            93.416
+          ],
+          [
+            91.167,
+            45.962
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_index": 4166,
+        "name": "9th",
+        "width_m": 14.0,
+        "distance_to_origin_m_vertices": 0.0,
+        "horizontal_only": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.947,
+            6.492
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_index": 100,
+        "name": "Kerlin",
+        "width_m": 12.0,
+        "distance_to_origin_m_vertices": 0.0,
+        "horizontal_only": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -7.86,
+            15.975
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_index": 539,
+        "name": "Kerlin",
+        "width_m": 12.0,
+        "distance_to_origin_m_vertices": 17.8,
+        "horizontal_only": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -7.86,
+            15.975
+          ],
+          [
+            -55.944,
+            107.284
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_index": 659,
+        "name": "Kerlin",
+        "width_m": 10.4,
+        "distance_to_origin_m_vertices": 0.0,
+        "horizontal_only": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.162,
+            -86.885
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_index": 660,
+        "name": "Kerlin",
+        "width_m": 12.0,
+        "distance_to_origin_m_vertices": 120.99,
+        "horizontal_only": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -55.944,
+            107.284
+          ],
+          [
+            -121.384,
+            229.491
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_index": 1864,
+        "name": "Kerlin",
+        "width_m": 7.5,
+        "distance_to_origin_m_vertices": 95.3,
+        "horizontal_only": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            58.708,
+            -131.515
+          ],
+          [
+            39.162,
+            -86.885
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_index": 2360,
+        "name": "Kerlin",
+        "width_m": 7.5,
+        "distance_to_origin_m_vertices": 144.02,
+        "horizontal_only": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.571,
+            -174.723
+          ],
+          [
+            60.123,
+            -134.499
+          ],
+          [
+            58.708,
+            -131.515
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "source_index": 2462,
+        "name": "Kerlin",
+        "width_m": 7.5,
+        "distance_to_origin_m_vertices": 191.58,
+        "horizontal_only": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.292,
+            -218.788
+          ],
+          [
+            78.571,
+            -174.723
+          ]
+        ]
+      }
+    }
+  ]
+}

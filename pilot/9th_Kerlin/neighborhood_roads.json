@@ -1,0 +1,2440 @@
+{
+  "metadata": {
+    "origin_lonlat": [
+      -75.37141354422802,
+      39.84831809369421
+    ],
+    "projection": "EPSG:32618",
+    "origin_easting_northing_m": [
+      468226.1739083406,
+      4410988.22069396
+    ],
+    "unreal_axes": "X=east; Y=north; Z=up",
+    "horizontal_units": "centimeters",
+    "preview_z_cm": 0.0,
+    "clip_area_m": "square +/-275m in local UTM coordinates",
+    "selection": "regional road candidates from 450m prior audit, clipped to 550m square. May omit features whose nearest vertex is outside prior 450m threshold",
+    "elevations": "UNVERIFIED; ALL geometry flat on temporary plane",
+    "widths": "source estimates, NOT measured paved widths",
+    "duplicate_policy": "exact reversed or same coordinate sequences removed; nearby parallel carriageways retained",
+    "sources": "E:/ChesterWorld/Data/18_StreetSystemV3/regional_motor_roads_v3.geojson (from supplied v2 archive)",
+    "feature_count": 112,
+    "target_named_features": 17,
+    "exact_duplicate_features_removed": 0,
+    "roads_are_not_final": true
+  },
+  "roads": [
+    {
+      "id": "regional_100_0",
+      "name": "Kerlin",
+      "source_index": 100,
+      "width_cm": 1200.0,
+      "class": "secondary",
+      "points_cm": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -786.03,
+          1597.53
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_186_0",
+      "name": "Amtrak Ne Corridor",
+      "source_index": 186,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          24184.34,
+          -26877.98
+        ],
+        [
+          23281.27,
+          -27500.0
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_187_0",
+      "name": "Amtrak Ne Corridor",
+      "source_index": 187,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          27500.0,
+          -24645.87
+        ],
+        [
+          24184.34,
+          -26877.98
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_291_0",
+      "name": "Lincoln",
+      "source_index": 291,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -14131.49,
+          -22110.47
+        ],
+        [
+          -16103.38,
+          -17804.99
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_349_0",
+      "name": "Parker",
+      "source_index": 349,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          17992.13,
+          -12971.0
+        ],
+        [
+          15871.87,
+          -8578.79
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_442_0",
+      "name": "Parker",
+      "source_index": 442,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          15871.87,
+          -8578.79
+        ],
+        [
+          14241.07,
+          -5200.46
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_530_0",
+      "name": "Lincoln",
+      "source_index": 530,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -24870.77,
+          1261.77
+        ],
+        [
+          -27500.0,
+          7203.22
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_531_0",
+      "name": "Kerlin",
+      "source_index": 531,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          11973.39,
+          -26233.56
+        ],
+        [
+          9929.23,
+          -21878.81
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_539_0",
+      "name": "Kerlin",
+      "source_index": 539,
+      "width_cm": 1200.0,
+      "class": "secondary",
+      "points_cm": [
+        [
+          -786.03,
+          1597.53
+        ],
+        [
+          -5594.38,
+          10728.39
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_610_0",
+      "name": "Concord",
+      "source_index": 610,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -15499.45,
+          6834.45
+        ],
+        [
+          -27500.0,
+          10616.45
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_639_0",
+      "name": "Fulton",
+      "source_index": 639,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          22621.86,
+          724.12
+        ],
+        [
+          18101.57,
+          9341.58
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_640_0",
+      "name": "Parker",
+      "source_index": 640,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          13667.94,
+          -4032.96
+        ],
+        [
+          9116.7,
+          4596.16
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_655_0",
+      "name": "Concord",
+      "source_index": 655,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          24326.75,
+          -9844.89
+        ],
+        [
+          14241.07,
+          -5200.46
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_658_0",
+      "name": "Kerlin",
+      "source_index": 658,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          12552.78,
+          -27500.0
+        ],
+        [
+          11973.39,
+          -26233.56
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_659_0",
+      "name": "Kerlin",
+      "source_index": 659,
+      "width_cm": 1040.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          3916.17,
+          -8688.49
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_660_0",
+      "name": "Kerlin",
+      "source_index": 660,
+      "width_cm": 1200.0,
+      "class": "secondary",
+      "points_cm": [
+        [
+          -5594.38,
+          10728.39
+        ],
+        [
+          -12138.37,
+          22949.08
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_661_0",
+      "name": "Kerlin",
+      "source_index": 661,
+      "width_cm": 1200.0,
+      "class": "secondary",
+      "points_cm": [
+        [
+          -12138.37,
+          22949.08
+        ],
+        [
+          -14514.42,
+          27500.0
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_813_0",
+      "name": "Parker",
+      "source_index": 813,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          3365.58,
+          15427.33
+        ],
+        [
+          -3033.34,
+          27500.0
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_839_0",
+      "name": "Fulton",
+      "source_index": 839,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          27500.0,
+          -8095.24
+        ],
+        [
+          22621.86,
+          724.12
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_1022_0",
+      "name": "Parker",
+      "source_index": 1022,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          9116.7,
+          4596.16
+        ],
+        [
+          3365.58,
+          15427.33
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_1630_0",
+      "name": "Lincoln",
+      "source_index": 1630,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -11645.19,
+          -27500.0
+        ],
+        [
+          -12129.62,
+          -26453.33
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_1641_0",
+      "name": "Butler",
+      "source_index": 1641,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -15499.45,
+          6834.45
+        ],
+        [
+          -21364.09,
+          18171.97
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_1642_0",
+      "name": "Butler",
+      "source_index": 1642,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -21364.09,
+          18171.97
+        ],
+        [
+          -25778.24,
+          26842.79
+        ],
+        [
+          -25841.8,
+          26988.56
+        ],
+        [
+          -25896.68,
+          27137.82
+        ],
+        [
+          -25942.68,
+          27290.05
+        ],
+        [
+          -25979.66,
+          27444.74
+        ],
+        [
+          -25989.47,
+          27500.0
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_1692_0",
+      "name": "Lincoln",
+      "source_index": 1692,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -23384.77,
+          -1972.05
+        ],
+        [
+          -27500.0,
+          -3844.6
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_1693_0",
+      "name": "Lincoln",
+      "source_index": 1693,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -16103.38,
+          -17804.99
+        ],
+        [
+          -18168.18,
+          -13374.8
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_1694_0",
+      "name": "Butler",
+      "source_index": 1694,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -8174.51,
+          -8844.96
+        ],
+        [
+          -10051.51,
+          -4480.6
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_1695_0",
+      "name": "Butler",
+      "source_index": 1695,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -6194.15,
+          -13168.42
+        ],
+        [
+          -8174.51,
+          -8844.96
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_1696_0",
+      "name": "Hughes",
+      "source_index": 1696,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -11629.53,
+          -1108.08
+        ],
+        [
+          -21673.65,
+          -5590.52
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_1697_0",
+      "name": "Lincoln",
+      "source_index": 1697,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -20057.73,
+          -9038.16
+        ],
+        [
+          -21673.65,
+          -5590.52
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_1698_0",
+      "name": "Macdonald",
+      "source_index": 1698,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -14249.8,
+          4198.56
+        ],
+        [
+          -24218.47,
+          -176.75
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_1699_0",
+      "name": "Lincoln",
+      "source_index": 1699,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -12129.62,
+          -26453.33
+        ],
+        [
+          -14131.49,
+          -22110.47
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_1701_0",
+      "name": "Woodrow",
+      "source_index": 1701,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -20.69,
+          -26382.2
+        ],
+        [
+          -2509.22,
+          -27500.0
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_1707_0",
+      "name": "Parker",
+      "source_index": 1707,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          21895.35,
+          -21820.94
+        ],
+        [
+          19923.59,
+          -17327.73
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_1708_0",
+      "name": "Butler",
+      "source_index": 1708,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          486.59,
+          -27500.0
+        ],
+        [
+          -20.69,
+          -26382.2
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_1719_0",
+      "name": "Taylor",
+      "source_index": 1719,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          27500.0,
+          23465.9
+        ],
+        [
+          14283.48,
+          16687.82
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_1864_0",
+      "name": "Kerlin",
+      "source_index": 1864,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          5870.77,
+          -13151.48
+        ],
+        [
+          3916.17,
+          -8688.49
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_1996_0",
+      "name": "James",
+      "source_index": 1996,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -4168.34,
+          -17692.77
+        ],
+        [
+          -14131.49,
+          -22110.47
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_1998_0",
+      "name": "Lincoln",
+      "source_index": 1998,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -18168.18,
+          -13374.8
+        ],
+        [
+          -20057.73,
+          -9038.16
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_1999_0",
+      "name": "Lincoln",
+      "source_index": 1999,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -24218.47,
+          -176.75
+        ],
+        [
+          -24870.77,
+          1261.77
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2000_0",
+      "name": "Lincoln",
+      "source_index": 2000,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -22147.35,
+          -4636.76
+        ],
+        [
+          -23384.77,
+          -1972.05
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2001_0",
+      "name": "Butler",
+      "source_index": 2001,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -4168.34,
+          -17692.77
+        ],
+        [
+          -6194.15,
+          -13168.42
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2002_0",
+      "name": "Pusey",
+      "source_index": 2002,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -26068.31,
+          -27500.0
+        ],
+        [
+          -27500.0,
+          -25453.41
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2003_0",
+      "name": "Woodrow",
+      "source_index": 2003,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          9929.23,
+          -21878.81
+        ],
+        [
+          -20.69,
+          -26382.2
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2004_0",
+      "name": "Woodrow",
+      "source_index": 2004,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          19923.59,
+          -17327.73
+        ],
+        [
+          9929.23,
+          -21878.81
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2005_0",
+      "name": "Woodrow",
+      "source_index": 2005,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          27500.0,
+          -13822.68
+        ],
+        [
+          19923.59,
+          -17327.73
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2068_0",
+      "name": "Lincoln",
+      "source_index": 2068,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -21673.65,
+          -5590.52
+        ],
+        [
+          -21705.98,
+          -5521.55
+        ],
+        [
+          -22147.35,
+          -4636.76
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2069_0",
+      "name": "Lincoln",
+      "source_index": 2069,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -23384.77,
+          -1972.05
+        ],
+        [
+          -24218.47,
+          -176.75
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2070_0",
+      "name": "James",
+      "source_index": 2070,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -14131.49,
+          -22110.47
+        ],
+        [
+          -25851.45,
+          -27500.0
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2150_0",
+      "name": "Concord",
+      "source_index": 2150,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          27500.0,
+          -11457.08
+        ],
+        [
+          24326.75,
+          -9844.89
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2151_0",
+      "name": "Concord",
+      "source_index": 2151,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          12803.72,
+          -4545.43
+        ],
+        [
+          1394.68,
+          649.2
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2152_0",
+      "name": "Concord",
+      "source_index": 2152,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          1394.68,
+          649.2
+        ],
+        [
+          -786.03,
+          1597.53
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2215_0",
+      "name": "Barclay",
+      "source_index": 2215,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          27500.0,
+          26320.05
+        ],
+        [
+          26904.98,
+          27500.0
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2276_0",
+      "name": "Fulton",
+      "source_index": 2276,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          14283.48,
+          16687.82
+        ],
+        [
+          12398.12,
+          20181.93
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2277_0",
+      "name": "Butler",
+      "source_index": 2277,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -10051.51,
+          -4480.6
+        ],
+        [
+          -11629.53,
+          -1108.08
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2278_0",
+      "name": "Butler",
+      "source_index": 2278,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -14249.8,
+          4198.56
+        ],
+        [
+          -15499.45,
+          6834.45
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2279_0",
+      "name": "Butler",
+      "source_index": 2279,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -11629.53,
+          -1108.08
+        ],
+        [
+          -14249.8,
+          4198.56
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2280_0",
+      "name": "Butler",
+      "source_index": 2280,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -2164.22,
+          -22038.18
+        ],
+        [
+          -4168.34,
+          -17692.77
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2290_0",
+      "name": "Butler",
+      "source_index": 2290,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -20.69,
+          -26382.2
+        ],
+        [
+          -2164.22,
+          -22038.18
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2311_0",
+      "name": "Fulton",
+      "source_index": 2311,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          18101.57,
+          9341.58
+        ],
+        [
+          14283.48,
+          16687.82
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2360_0",
+      "name": "Kerlin",
+      "source_index": 2360,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          7857.14,
+          -17472.3
+        ],
+        [
+          6012.3,
+          -13449.92
+        ],
+        [
+          5870.77,
+          -13151.48
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2437_0",
+      "name": "Concord",
+      "source_index": 2437,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -786.03,
+          1597.53
+        ],
+        [
+          -4076.67,
+          2870.13
+        ],
+        [
+          -7388.32,
+          4086.98
+        ],
+        [
+          -10720.02,
+          5247.78
+        ],
+        [
+          -14070.86,
+          6352.18
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2462_0",
+      "name": "Kerlin",
+      "source_index": 2462,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          9929.23,
+          -21878.81
+        ],
+        [
+          7857.14,
+          -17472.3
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2544_0",
+      "name": "Parker",
+      "source_index": 2544,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          14241.07,
+          -5200.46
+        ],
+        [
+          13667.94,
+          -4032.96
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2654_0",
+      "name": "James",
+      "source_index": 2654,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          5870.77,
+          -13151.48
+        ],
+        [
+          -4168.34,
+          -17692.77
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2655_0",
+      "name": "James",
+      "source_index": 2655,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          15871.87,
+          -8578.79
+        ],
+        [
+          5870.77,
+          -13151.48
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2662_0",
+      "name": "Hughes",
+      "source_index": 2662,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -22147.35,
+          -4636.76
+        ],
+        [
+          -27500.0,
+          -7080.35
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2669_0",
+      "name": "Parker",
+      "source_index": 2669,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          19923.59,
+          -17327.73
+        ],
+        [
+          17992.13,
+          -12971.0
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_2926_0",
+      "name": "Concord",
+      "source_index": 2926,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          14241.07,
+          -5200.46
+        ],
+        [
+          12803.72,
+          -4545.43
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3036_0",
+      "name": "Concord",
+      "source_index": 3036,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -14070.86,
+          6352.18
+        ],
+        [
+          -15499.45,
+          6834.45
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3083_0",
+      "name": "Parker",
+      "source_index": 3083,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          23786.38,
+          -26029.94
+        ],
+        [
+          21895.35,
+          -21820.94
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3084_0",
+      "name": "Parker St",
+      "source_index": 3084,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          24184.34,
+          -26877.98
+        ],
+        [
+          23786.38,
+          -26029.94
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3085_0",
+      "name": "Parker St",
+      "source_index": 3085,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          24476.24,
+          -27500.0
+        ],
+        [
+          24184.34,
+          -26877.98
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3332_0",
+      "name": "Congress",
+      "source_index": 3332,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -18168.18,
+          -13374.8
+        ],
+        [
+          -27500.0,
+          -17682.34
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3399_0",
+      "name": "9th",
+      "source_index": 3399,
+      "width_cm": 1400.0,
+      "class": "primary",
+      "points_cm": [
+        [
+          27500.0,
+          14342.94
+        ],
+        [
+          18101.57,
+          9341.58
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3440_0",
+      "name": "9th",
+      "source_index": 3440,
+      "width_cm": 1400.0,
+      "class": "primary",
+      "points_cm": [
+        [
+          -20057.73,
+          -9038.16
+        ],
+        [
+          -27500.0,
+          -12386.25
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3441_0",
+      "name": "9th",
+      "source_index": 3441,
+      "width_cm": 1360.0,
+      "class": "primary",
+      "points_cm": [
+        [
+          -10051.51,
+          -4480.6
+        ],
+        [
+          -20057.73,
+          -9038.16
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3442_0",
+      "name": "7th",
+      "source_index": 3442,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -12129.62,
+          -26453.33
+        ],
+        [
+          -14415.45,
+          -27500.0
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3443_0",
+      "name": "7th",
+      "source_index": 3443,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -2164.22,
+          -22038.18
+        ],
+        [
+          -12129.62,
+          -26453.33
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3444_0",
+      "name": "7th",
+      "source_index": 3444,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          7857.14,
+          -17472.3
+        ],
+        [
+          -2164.22,
+          -22038.18
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3445_0",
+      "name": "7th",
+      "source_index": 3445,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          17992.13,
+          -12971.0
+        ],
+        [
+          7857.14,
+          -17472.3
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3446_0",
+      "name": "7th",
+      "source_index": 3446,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          24326.75,
+          -9844.89
+        ],
+        [
+          17992.13,
+          -12971.0
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3447_0",
+      "name": "9th",
+      "source_index": 3447,
+      "width_cm": 1400.0,
+      "class": "primary",
+      "points_cm": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -10051.51,
+          -4480.6
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3448_0",
+      "name": "9th",
+      "source_index": 3448,
+      "width_cm": 1400.0,
+      "class": "primary",
+      "points_cm": [
+        [
+          9116.7,
+          4596.16
+        ],
+        [
+          1394.68,
+          649.2
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3449_0",
+      "name": "9th",
+      "source_index": 3449,
+      "width_cm": 1400.0,
+      "class": "primary",
+      "points_cm": [
+        [
+          18101.57,
+          9341.58
+        ],
+        [
+          9116.7,
+          4596.16
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3460_0",
+      "name": "7th",
+      "source_index": 3460,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          27500.0,
+          -8107.2
+        ],
+        [
+          24326.75,
+          -9844.89
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3540_0",
+      "name": "11th",
+      "source_index": 3540,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -3398.75,
+          27500.0
+        ],
+        [
+          -12138.37,
+          22949.08
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3559_0",
+      "name": "8th",
+      "source_index": 3559,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          3916.17,
+          -8688.49
+        ],
+        [
+          -6194.15,
+          -13168.42
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3560_0",
+      "name": "8th",
+      "source_index": 3560,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -6194.15,
+          -13168.42
+        ],
+        [
+          -16103.38,
+          -17804.99
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3577_0",
+      "name": "6th",
+      "source_index": 3577,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          21895.35,
+          -21820.94
+        ],
+        [
+          11973.39,
+          -26233.56
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3578_0",
+      "name": "6th",
+      "source_index": 3578,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          11973.39,
+          -26233.56
+        ],
+        [
+          9140.42,
+          -27500.0
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3641_0",
+      "name": "8th",
+      "source_index": 3641,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          27500.0,
+          3346.68
+        ],
+        [
+          22621.86,
+          724.12
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3647_0",
+      "name": "11th",
+      "source_index": 3647,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -21364.09,
+          18171.97
+        ],
+        [
+          -27500.0,
+          14913.8
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3648_0",
+      "name": "10th",
+      "source_index": 3648,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          3365.58,
+          15427.33
+        ],
+        [
+          -5594.38,
+          10728.39
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3813_0",
+      "name": "8th",
+      "source_index": 3813,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          12803.72,
+          -4545.43
+        ],
+        [
+          3916.17,
+          -8688.49
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3814_0",
+      "name": "10th",
+      "source_index": 3814,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -5594.38,
+          10728.39
+        ],
+        [
+          -14070.86,
+          6352.18
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3815_0",
+      "name": "8th",
+      "source_index": 3815,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -16103.38,
+          -17804.99
+        ],
+        [
+          -27500.0,
+          -22919.35
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3834_0",
+      "name": "11th",
+      "source_index": 3834,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -12138.37,
+          22949.08
+        ],
+        [
+          -21364.09,
+          18171.97
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3848_0",
+      "name": "6th",
+      "source_index": 3848,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          27500.0,
+          -19306.35
+        ],
+        [
+          21895.35,
+          -21820.94
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3861_0",
+      "name": "Congress",
+      "source_index": 3861,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -8174.51,
+          -8844.96
+        ],
+        [
+          -18168.18,
+          -13374.8
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3877_0",
+      "name": "10th",
+      "source_index": 3877,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          12398.12,
+          20181.93
+        ],
+        [
+          3365.58,
+          15427.33
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3960_0",
+      "name": "8th",
+      "source_index": 3960,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          22621.86,
+          724.12
+        ],
+        [
+          13667.94,
+          -4032.96
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_3994_0",
+      "name": "10th",
+      "source_index": 3994,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          26300.65,
+          27500.0
+        ],
+        [
+          12398.12,
+          20181.93
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_4166_0",
+      "name": "9th",
+      "source_index": 4166,
+      "width_cm": 1400.0,
+      "class": "primary",
+      "points_cm": [
+        [
+          1394.68,
+          649.2
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_4205_0",
+      "name": "10th",
+      "source_index": 4205,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          -24870.77,
+          1261.77
+        ],
+        [
+          -27500.0,
+          79.56
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_4342_0",
+      "name": "8th",
+      "source_index": 4342,
+      "width_cm": 750.0,
+      "class": "residential",
+      "points_cm": [
+        [
+          13667.94,
+          -4032.96
+        ],
+        [
+          12803.72,
+          -4545.43
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_4477_0",
+      "name": "Unnamed",
+      "source_index": 4477,
+      "width_cm": 380.0,
+      "class": "alley",
+      "points_cm": [
+        [
+          -19867.83,
+          -1651.92
+        ],
+        [
+          -15767.52,
+          166.73
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_4491_0",
+      "name": "Unnamed",
+      "source_index": 4491,
+      "width_cm": 366.0,
+      "class": "alley",
+      "points_cm": [
+        [
+          -18199.65,
+          5505.5
+        ],
+        [
+          -22402.98,
+          3799.4
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_4874_0",
+      "name": "Unnamed",
+      "source_index": 4874,
+      "width_cm": 350.0,
+      "class": "parking_aisle",
+      "points_cm": [
+        [
+          19239.34,
+          26634.49
+        ],
+        [
+          20876.28,
+          27500.0
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_4876_0",
+      "name": "Unnamed",
+      "source_index": 4876,
+      "width_cm": 410.0,
+      "class": "service",
+      "points_cm": [
+        [
+          -6735.02,
+          -1037.43
+        ],
+        [
+          -8143.18,
+          2453.51
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_4877_0",
+      "name": "Unnamed",
+      "source_index": 4877,
+      "width_cm": 459.0,
+      "class": "service",
+      "points_cm": [
+        [
+          -675.03,
+          -5042.71
+        ],
+        [
+          -2116.57,
+          -5045.6
+        ],
+        [
+          -2700.35,
+          -4711.32
+        ],
+        [
+          -3133.13,
+          -3863.78
+        ],
+        [
+          -4044.45,
+          -4325.03
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_4878_0",
+      "name": "Unnamed",
+      "source_index": 4878,
+      "width_cm": 500.0,
+      "class": "service",
+      "points_cm": [
+        [
+          -213.23,
+          -6114.57
+        ],
+        [
+          -675.03,
+          -5042.71
+        ],
+        [
+          -1807.08,
+          -2418.66
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    },
+    {
+      "id": "regional_5197_0",
+      "name": "Unnamed",
+      "source_index": 5197,
+      "width_cm": 500.0,
+      "class": "service",
+      "points_cm": [
+        [
+          -6735.02,
+          -1037.43
+        ],
+        [
+          -7105.38,
+          -1225.68
+        ],
+        [
+          -9140.64,
+          -2258.28
+        ]
+      ],
+      "z_status": "unknown_flat_preview",
+      "source": "regional_motor_roads_v3",
+      "bridge_tag": "",
+      "tunnel_tag": ""
+    }
+  ]
+}
