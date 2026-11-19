@@ -47,11 +47,10 @@ if not changed:
         raise RuntimeError("Could not access StaticMesh BodySetup. Use Static Mesh Editor -> Collision Complexity -> Use Complex Collision As Simple.")
     body_setup.set_editor_property("collision_trace_flag", trace_flag)
     mesh.modify()
-    mesh.post_edit_change()
     changed = True
 
-component.set_editor_property("collision_enabled", unreal.CollisionEnabled.QUERY_AND_PHYSICS)
-component.set_editor_property("collision_profile_name", "BlockAll")
+component.set_collision_enabled(unreal.CollisionEnabled.QUERY_AND_PHYSICS)
+component.set_collision_profile_name("BlockAll")
 component.set_editor_property("generate_overlap_events", False)
 component.modify()
 actor.modify()
