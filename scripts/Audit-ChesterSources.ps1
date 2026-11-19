@@ -1,9 +1,9 @@
 # ChesterWorld Unreal read-only local inventory
 # Run from PowerShell. Produces a CSV report only; does not copy/import/delete data.
 param(
-  [string]$ProjectRoot = 'E:\UnrealProjects\ChesterWorldUnreal',
+  [string]$ProjectRoot = 'E:\Unreal\ChesterWorldUnreal',
   [string]$LegacyDataRoot = 'E:\ChesterWorld\Data',
-  [string]$OutputDirectory = "$env:USERPROFILE\Desktop"
+  [string]$OutputDirectory = 'E:\ChesterWorld\Reports'
 )
 $ErrorActionPreference = 'Stop'
 $roots = @(
@@ -33,9 +33,7 @@ foreach ($root in $roots) {
       })
     }
 }
-if (-not (Test-Path -LiteralPath $OutputDirectory)) {
-  throw "Output directory missing: $OutputDirectory"
-}
+New-Item -ItemType Directory -Path $OutputDirectory -Force | Out-Null
 $csv = Join-Path $OutputDirectory 'ChesterWorldUnreal_inventory.csv'
 $rows | Export-Csv -LiteralPath $csv -NoTypeInformation -Encoding utf8
 $uprojects = @($rows | Where-Object { $_.extension -eq '.uproject' })
