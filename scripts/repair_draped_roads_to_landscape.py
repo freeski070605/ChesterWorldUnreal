@@ -9,7 +9,6 @@ CW_DRAPED_ROADS_PREVIEW to it after successful import. The old mesh asset is ret
 Never moves the Landscape, car or buildings. No asset/level auto-save.
 """
 from pathlib import Path
-from collections import Counter
 import statistics
 import unreal
 
@@ -47,15 +46,18 @@ ignored = [a for a in actors if a != landscape]
 # Unreal 5.7 line_trace_single returns HitResult; to_tuple()[0] is blocking-hit,
 # and to_tuple()[5] is impact_point, as verified with this exact project.
 cache = {}
-misses = 0
 samples = []
 def surface_z(x, y):
-    key = (round(x, 3), round(y, 3))
+    # The original draped OBJ slightly exceeds the 535.5m Landscape footprint.
+    # Match the old preview's edge-clamp behavior; never abort on border roads.
+    sample_x = max(-26750.0, min(26750.0, x))
+    sample_y = max(-26750.0, min(26750.0, y))
+    key = (round(sample_x, 3), round(sample_y, 3))
     if key in cache:
         return cache[key]
     result = unreal.SystemLibrary.line_trace_single(
-        world, unreal.Vector(x, y, START_Z),
-        unreal.Vector(x, y, END_Z),
+        world, unreal.Vector(sample_x, sample_y, START_Z),
+        unreal.Vector(sample_x, sample_y, END_Z),
         unreal.TraceTypeQuery.TRACE_TYPE_QUERY1, True,
         ignored, unreal.DrawDebugTrace.NONE, True
     )
@@ -64,7 +66,7 @@ def surface_z(x, y):
         raise RuntimeError(f"Landscape collision missing at x={x:.2f} y={y:.2f}. "
                            "Source road extends beyond terrain; no partial mesh imported.")
     if value[9] != landscape:
-        raise RuntimeError(f"Trace hit wrong actor {value[9]} at {x:.2f},{y:.2f}")
+        raise RuntimeError(f"Trace hit wrong actor {value[9]} at {sample_x:.2f},{sample_y:.2f}")
     z = float(value[5].z)
     cache[key] = z
     return z
