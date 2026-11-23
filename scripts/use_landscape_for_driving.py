@@ -5,7 +5,7 @@ After the aligned V2 import, in UE 5.7 editor Python console:
 
 At the verified pilot sample XY, shifts the road actor downward by the measured
 excess clearance so its visual surface sits 8 cm above Landscape collision.
-Safeguard: refuses gaps outside -20..100 cm. Other locations may differ.
+Safeguard: permits up to 250 cm correction for the measured original FacadesV1\nroad gap; refuses larger corrections. Other locations may differ.
 This is a diagnostic workaround for bad triangles/overlap in the generated
 road collider; it does NOT alter the vehicle, heights, or mesh assets.
 """
@@ -15,7 +15,7 @@ ROAD_LABEL = "CW_DRAPED_ROADS_PREVIEW"
 SAMPLE_X = -6610.0
 SAMPLE_Y = 2820.0  # previously verified road/Landscape collision location
 TARGET_CLEARANCE_CM = 8.0
-MAX_ADJUSTMENT_CM = 100.0
+MAX_ADJUSTMENT_CM = 250.0
 
 sub = unreal.get_editor_subsystem(unreal.EditorActorSubsystem)
 actors = list(sub.get_all_level_actors())
